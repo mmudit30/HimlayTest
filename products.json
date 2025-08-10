@@ -1,0 +1,361 @@
+[
+  {
+    "id": "TX-001",
+    "name": "Pashmina Blend Shawl",
+    "category": "Textiles & Shawls",
+    "priceINR": 5999,
+    "images": [
+      {
+        "sm": "../assets/images/products/tx-001-sm.jpg",
+        "md": "../assets/images/products/tx-001-md.jpg",
+        "lg": "../assets/images/products/tx-001-lg.jpg"
+      }
+    ],
+    "materials": [
+      "Wool",
+      "Pashmina"
+    ],
+    "originVillage": "Kullu",
+    "originState": "Himachal Pradesh",
+    "artisanName": "Meera Devi",
+    "artisanBio": "",
+    "description": "Lightweight shawl with traditional Kullvi motifs.",
+    "care": "Dry clean only. Store folded.",
+    "shippingInfo": "Ships in 5\u20137 days from Dehradun.",
+    "tags": [
+      "shawl",
+      "pashmina",
+      "kullu"
+    ],
+    "isFeatured": true,
+    "dateAdded": "2025-07-20"
+  },
+  {
+    "id": "TX-002",
+    "name": "Himalayan Wool Throw",
+    "category": "Textiles & Shawls",
+    "priceINR": 4499,
+    "images": [
+      {
+        "sm": "../assets/images/products/tx-002-sm.jpg",
+        "md": "../assets/images/products/tx-002-md.jpg",
+        "lg": "../assets/images/products/tx-002-lg.jpg"
+      }
+    ],
+    "materials": [
+      "Wool"
+    ],
+    "originVillage": "Almora",
+    "originState": "Uttarakhand",
+    "artisanName": "Puran Singh",
+    "artisanBio": "",
+    "description": "Cozy, hand-loomed throw in moss and stone palette.",
+    "care": "Spot clean; sun often.",
+    "shippingInfo": "Ships in 3\u20135 days.",
+    "tags": [
+      "throw",
+      "wool",
+      "almora"
+    ],
+    "isFeatured": true,
+    "dateAdded": "2025-07-22"
+  },
+  {
+    "id": "WD-101",
+    "name": "Carved Walnut Tray",
+    "category": "Woodcraft",
+    "priceINR": 3299,
+    "images": [
+      {
+        "sm": "../assets/images/products/wd-101-sm.jpg",
+        "md": "../assets/images/products/wd-101-md.jpg",
+        "lg": "../assets/images/products/wd-101-lg.jpg"
+      }
+    ],
+    "materials": [
+      "Walnut Wood"
+    ],
+    "originVillage": "Srinagar",
+    "originState": "J&K",
+    "artisanName": "Rafiq Ahmad",
+    "artisanBio": "",
+    "description": "Hand-carved tray with natural finish.",
+    "care": "Wipe with dry cloth.",
+    "shippingInfo": "Ships in 4\u20136 days.",
+    "tags": [
+      "walnut",
+      "tray",
+      "kashmir"
+    ],
+    "isFeatured": false,
+    "dateAdded": "2025-07-24"
+  },
+  {
+    "id": "TE-201",
+    "name": "Kangra Green Tea",
+    "category": "Herbal Teas",
+    "priceINR": 699,
+    "images": [
+      {
+        "sm": "../assets/images/products/te-201-sm.jpg",
+        "md": "../assets/images/products/te-201-md.jpg",
+        "lg": "../assets/images/products/te-201-lg.jpg"
+      }
+    ],
+    "materials": [
+      "Green Tea"
+    ],
+    "originVillage": "Palampur",
+    "originState": "Himachal Pradesh",
+    "artisanName": "Anita Tea Collective",
+    "artisanBio": "",
+    "description": "Fresh, grassy notes with a light finish.",
+    "care": "Store airtight; brew at 80\u00b0C.",
+    "shippingInfo": "Ships in 2\u20134 days.",
+    "tags": [
+      "tea",
+      "green",
+      "kangra"
+    ],
+    "isFeatured": true,
+    "dateAdded": "2025-07-15"
+  },
+  {
+    "id": "TE-202",
+    "name": "Rhododendron Herbal Infusion",
+    "category": "Herbal Teas",
+    "priceINR": 799,
+    "images": [
+      {
+        "sm": "../assets/images/products/te-202-sm.jpg",
+        "md": "../assets/images/products/te-202-md.jpg",
+        "lg": "../assets/images/products/te-202-lg.jpg"
+      }
+    ],
+    "materials": [
+      "Rhododendron",
+      "Herbs"
+    ],
+    "originVillage": "Chamoli",
+    "originState": "Uttarakhand",
+    "artisanName": "Bhoomi Mahila Sangh",
+    "artisanBio": "",
+    "description": "Bloomy, subtly sweet drink from local flowers.",
+    "care": "Store airtight; brew at 95\u00b0C.",
+    "shippingInfo": "Ships in 2\u20134 days.",
+    "tags": [
+      "tea",
+      "herbal",
+      "uttarakhand"
+    ],
+    "isFeatured": false,
+    "dateAdded": "2025-07-18"
+  },
+  {
+    "id": "MT-301",
+    "name": "Copper Water Hammered Bottle",
+    "category": "Copper/Brassware",
+    "priceINR": 2499,
+    "images": [
+      {
+        "sm": "../assets/images/products/mt-301-sm.jpg",
+        "md": "../assets/images/products/mt-301-md.jpg",
+        "lg": "../assets/images/products/mt-301-lg.jpg"
+      }
+    ],
+    "materials": [
+      "Copper"
+    ],
+    "originVillage": "Kathua",
+    "originState": "J&K",
+    "artisanName": "Hussain Metals",
+    "artisanBio": "",
+    "description": "Hammered copper bottle with screw cap.",
+    "care": "Rinse and dry; avoid dishwasher.",
+    "shippingInfo": "Ships in 3\u20135 days.",
+    "tags": [
+      "copper",
+      "bottle"
+    ],
+    "isFeatured": false,
+    "dateAdded": "2025-07-26"
+  },
+  {
+    "id": "JR-401",
+    "name": "Handmade Silver Earrings",
+    "category": "Jewelry",
+    "priceINR": 1999,
+    "images": [
+      {
+        "sm": "../assets/images/products/jr-401-sm.jpg",
+        "md": "../assets/images/products/jr-401-md.jpg",
+        "lg": "../assets/images/products/jr-401-lg.jpg"
+      }
+    ],
+    "materials": [
+      "Silver"
+    ],
+    "originVillage": "Pithoragarh",
+    "originState": "Uttarakhand",
+    "artisanName": "Shobha Jewels",
+    "artisanBio": "",
+    "description": "Lightweight danglers with mountain flower pattern.",
+    "care": "Store in zip bag; keep dry.",
+    "shippingInfo": "Ships in 3\u20135 days.",
+    "tags": [
+      "silver",
+      "earrings",
+      "kumaon"
+    ],
+    "isFeatured": true,
+    "dateAdded": "2025-07-10"
+  },
+  {
+    "id": "PC-501",
+    "name": "Lokta Paper Journal",
+    "category": "Paper & Stationery",
+    "priceINR": 899,
+    "images": [
+      {
+        "sm": "../assets/images/products/pc-501-sm.jpg",
+        "md": "../assets/images/products/pc-501-md.jpg",
+        "lg": "../assets/images/products/pc-501-lg.jpg"
+      }
+    ],
+    "materials": [
+      "Lokta Paper"
+    ],
+    "originVillage": "Gangtok",
+    "originState": "Sikkim",
+    "artisanName": "Tashi Papers",
+    "artisanBio": "",
+    "description": "A5 journal with deckle edges and cotton tie.",
+    "care": "Keep dry; avoid direct sun.",
+    "shippingInfo": "Ships in 2\u20133 days.",
+    "tags": [
+      "journal",
+      "paper",
+      "lokta"
+    ],
+    "isFeatured": false,
+    "dateAdded": "2025-07-12"
+  },
+  {
+    "id": "CR-601",
+    "name": "Himalayan Clay Cup Set",
+    "category": "Ceramics",
+    "priceINR": 1499,
+    "images": [
+      {
+        "sm": "../assets/images/products/cr-601-sm.jpg",
+        "md": "../assets/images/products/cr-601-md.jpg",
+        "lg": "../assets/images/products/cr-601-lg.jpg"
+      }
+    ],
+    "materials": [
+      "Clay"
+    ],
+    "originVillage": "Kangra",
+    "originState": "Himachal Pradesh",
+    "artisanName": "Rana Pottery",
+    "artisanBio": "",
+    "description": "Matte glazed cups, set of 2.",
+    "care": "Hand wash recommended.",
+    "shippingInfo": "Ships in 4\u20136 days.",
+    "tags": [
+      "ceramic",
+      "cups"
+    ],
+    "isFeatured": false,
+    "dateAdded": "2025-07-05"
+  },
+  {
+    "id": "RG-701",
+    "name": "Hand-woven Wool Rug",
+    "category": "Hand-woven Rugs",
+    "priceINR": 6999,
+    "images": [
+      {
+        "sm": "../assets/images/products/rg-701-sm.jpg",
+        "md": "../assets/images/products/rg-701-md.jpg",
+        "lg": "../assets/images/products/rg-701-lg.jpg"
+      }
+    ],
+    "materials": [
+      "Wool"
+    ],
+    "originVillage": "Kargil",
+    "originState": "Ladakh",
+    "artisanName": "Dolma Weaves",
+    "artisanBio": "",
+    "description": "2x3 ft rug in indigo and bone.",
+    "care": "Vacuum gently; avoid moisture.",
+    "shippingInfo": "Ships in 7\u201310 days.",
+    "tags": [
+      "rug",
+      "wool",
+      "ladakh"
+    ],
+    "isFeatured": true,
+    "dateAdded": "2025-07-08"
+  },
+  {
+    "id": "ND-801",
+    "name": "Indigo Natural Dye Kit",
+    "category": "Natural Dyes",
+    "priceINR": 1299,
+    "images": [
+      {
+        "sm": "../assets/images/products/nd-801-sm.jpg",
+        "md": "../assets/images/products/nd-801-md.jpg",
+        "lg": "../assets/images/products/nd-801-lg.jpg"
+      }
+    ],
+    "materials": [
+      "Indigofera tinctoria"
+    ],
+    "originVillage": "Bhagsu",
+    "originState": "Himachal Pradesh",
+    "artisanName": "Indigo Co-op",
+    "artisanBio": "",
+    "description": "Starter kit with instructions for small projects.",
+    "care": "Keep sealed; use gloves.",
+    "shippingInfo": "Ships in 3\u20135 days.",
+    "tags": [
+      "dye",
+      "indigo"
+    ],
+    "isFeatured": false,
+    "dateAdded": "2025-07-01"
+  },
+  {
+    "id": "WD-102",
+    "name": "Cedar Spice Box",
+    "category": "Woodcraft",
+    "priceINR": 2599,
+    "images": [
+      {
+        "sm": "../assets/images/products/wd-102-sm.jpg",
+        "md": "../assets/images/products/wd-102-md.jpg",
+        "lg": "../assets/images/products/wd-102-lg.jpg"
+      }
+    ],
+    "materials": [
+      "Cedar Wood"
+    ],
+    "originVillage": "Nainital",
+    "originState": "Uttarakhand",
+    "artisanName": "Rawat Woodworks",
+    "artisanBio": "",
+    "description": "Six-compartment spice box with brass knob.",
+    "care": "Wipe; oil occasionally.",
+    "shippingInfo": "Ships in 4\u20136 days.",
+    "tags": [
+      "wood",
+      "spice",
+      "cedar"
+    ],
+    "isFeatured": false,
+    "dateAdded": "2025-07-28"
+  }
+]

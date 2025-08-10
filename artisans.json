@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Meera Devi",
+    "image": {
+      "sm": "./assets/images/artisans/meera-sm.jpg",
+      "md": "./assets/images/artisans/meera-md.jpg",
+      "lg": "./assets/images/artisans/meera-lg.jpg"
+    },
+    "bio": "Third-generation weaver from Kullu.",
+    "village": "Kullu",
+    "state": "Himachal Pradesh"
+  },
+  {
+    "name": "Puran Singh",
+    "image": {
+      "sm": "./assets/images/artisans/puran-sm.jpg",
+      "md": "./assets/images/artisans/puran-md.jpg",
+      "lg": "./assets/images/artisans/puran-lg.jpg"
+    },
+    "bio": "Runs a cooperative of five looms.",
+    "village": "Almora",
+    "state": "Uttarakhand"
+  },
+  {
+    "name": "Rafiq Ahmad",
+    "image": {
+      "sm": "./assets/images/artisans/rafiq-sm.jpg",
+      "md": "./assets/images/artisans/rafiq-md.jpg",
+      "lg": "./assets/images/artisans/rafiq-lg.jpg"
+    },
+    "bio": "Woodcarver of floral lattice work.",
+    "village": "Srinagar",
+    "state": "J&K"
+  },
+  {
+    "name": "Dolma",
+    "image": {
+      "sm": "./assets/images/artisans/dolma-sm.jpg",
+      "md": "./assets/images/artisans/dolma-md.jpg",
+      "lg": "./assets/images/artisans/dolma-lg.jpg"
+    },
+    "bio": "Weaves geometric rugs with natural dyes.",
+    "village": "Kargil",
+    "state": "Ladakh"
+  },
+  {
+    "name": "Tashi",
+    "image": {
+      "sm": "./assets/images/artisans/tashi-sm.jpg",
+      "md": "./assets/images/artisans/tashi-md.jpg",
+      "lg": "./assets/images/artisans/tashi-lg.jpg"
+    },
+    "bio": "Sustainable paper craft lead.",
+    "village": "Gangtok",
+    "state": "Sikkim"
+  }
+]

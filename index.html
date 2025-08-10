@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Handmade, Himalayan. Himlay curates artisan goods from the Himalayan belt." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <meta property="og:title" content="Himlay — Handmade from the Himalayas" />
+  <meta property="og:description" content="Crafted by mountain artisans—each piece carries the calm of the hills." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./assets/images/og-default-lg.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Himlay — Handmade from the Himalayas</title>
+</head>
+<body>
+  <header class="header" id="site-header">
+    <div class="container header__inner">
+      <a class="logo" href="./index.html">himlay<span class="logo__dot">.com</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="./index.html">Home</a>
+        <a href="./pages/shop.html">Shop</a>
+        <a href="./pages/about.html">About</a>
+        <a href="./pages/blog.html">Blog</a>
+        <a href="./pages/faq.html">FAQs</a>
+        <a href="./pages/contact.html">Contact</a>
+      </nav>
+      <div class="header__actions">
+        <input id="site-search" class="search" type="search" placeholder="Search products…" aria-label="Search" />
+        <select id="currency-select" class="currency" aria-label="Currency">
+          <option value="INR">INR ₹</option>
+          <option value="USD">USD $</option>
+          <option value="EUR">EUR €</option>
+        </select>
+        <a class="icon-btn" href="./pages/wishlist.html" aria-label="Wishlist">
+          <span class="icon-heart"></span><span class="badge" id="wishlist-count">0</span>
+        </a>
+        <a class="icon-btn" href="./pages/cart.html" aria-label="Cart">
+          <span class="icon-cart"></span><span class="badge" id="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+
+  <section class="hero" data-aos="fade-up">
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <h1>Handmade. Himalayan. Himlay.</h1>
+        <p>Crafted by mountain artisans—each piece carries the calm of the hills.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="./pages/shop.html">Explore the Shop</a>
+          <a class="btn" href="./pages/about.html">Meet the Artisans</a>
+        </div>
+      </div>
+      <figure class="hero__image wm">
+        <img 
+          src="./assets/images/hero-md.jpg"
+          srcset="./assets/images/hero-sm.jpg 800w, ./assets/images/hero-md.jpg 1200w, ./assets/images/hero-lg.jpg 1600w"
+          sizes="(max-width: 600px) 100vw, 50vw"
+          alt="Himalayan artisan weaving a shawl">
+      </figure>
+    </div>
+  </section>
+
+  <section class="categories container" data-aos="fade-up">
+    <header class="section__header">
+      <h2>Featured Categories</h2>
+    </header>
+    <div class="grid grid--3">
+      <a class="card wm" href="./pages/shop.html?category=Textiles%20%26%20Shawls">
+        <img src="./assets/images/cat-textiles-md.jpg"
+             srcset="./assets/images/cat-textiles-sm.jpg 400w, ./assets/images/cat-textiles-md.jpg 600w, ./assets/images/cat-textiles-lg.jpg 900w"
+             sizes="(max-width: 600px) 100vw, 33vw"
+             alt="Textiles and Shawls">
+        <div class="card__body"><h3>Textiles & Shawls</h3></div>
+      </a>
+      <a class="card wm" href="./pages/shop.html?category=Woodcraft">
+        <img src="./assets/images/cat-wood-md.jpg"
+             srcset="./assets/images/cat-wood-sm.jpg 400w, ./assets/images/cat-wood-md.jpg 600w, ./assets/images/cat-wood-lg.jpg 900w"
+             sizes="(max-width: 600px) 100vw, 33vw"
+             alt="Woodcraft">
+        <div class="card__body"><h3>Woodcraft</h3></div>
+      </a>
+      <a class="card wm" href="./pages/shop.html?category=Herbal%20Teas">
+        <img src="./assets/images/cat-tea-md.jpg"
+             srcset="./assets/images/cat-tea-sm.jpg 400w, ./assets/images/cat-tea-md.jpg 600w, ./assets/images/cat-tea-lg.jpg 900w"
+             sizes="(max-width: 600px) 100vw, 33vw"
+             alt="Herbal Teas">
+        <div class="card__body"><h3>Herbal Teas</h3></div>
+      </a>
+    </div>
+  </section>
+
+  <section class="artisans" data-aos="fade-up">
+    <div class="container">
+      <header class="section__header">
+        <h2>Meet the Artisans</h2>
+        <p>Faces behind the craft—from Kumaon, Garhwal, Himachal, Ladakh, Sikkim & beyond.</p>
+      </header>
+      <div id="artisan-grid" class="grid grid--3"></div>
+    </div>
+  </section>
+
+  <section class="provenance" data-aos="fade-up">
+    <div class="container">
+      <header class="section__header">
+        <h2>From the Himalayas</h2>
+      </header>
+      <div class="map wm">
+        <img 
+          src="./assets/images/map-md.jpg"
+          srcset="./assets/images/map-sm.jpg 800w, ./assets/images/map-md.jpg 1200w, ./assets/images/map-lg.jpg 1600w"
+          sizes="(max-width: 600px) 100vw, 50vw"
+          alt="Provenance map of the Himalayan belt">
+        <div class="map__pin" style="left: 35%; top: 55%;" title="Dehradun"></div>
+        <div class="map__pin" style="left: 45%; top: 35%;" title="Kullu"></div>
+        <div class="map__pin" style="left: 52%; top: 28%;" title="Leh"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="press container" data-aos="fade-up">
+    <header class="section__header">
+      <h2>As seen in</h2>
+    </header>
+    <div class="press__logos">
+      <span class="press__logo">Himalaya Living</span>
+      <span class="press__logo">Craft Journal</span>
+      <span class="press__logo">Mountain Modern</span>
+    </div>
+  </section>
+  <script type="module" src="./js/home-artisans.js"></script>
+
+  </main>
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="logo footer__logo">himlay<span class="logo__dot">.com</span></div>
+        <p>Handmade. Himalayan. Curated goods from Kumaon, Garhwal, Himachal, Ladakh, Sikkim & beyond.</p>
+        <form class="newsletter" action="mailto:hello@himlay.com" method="post" enctype="text/plain">
+          <label for="nl-email">Join our newsletter</label>
+          <input id="nl-email" name="email" type="email" placeholder="you@example.com" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="./pages/shop.html">Shop</a></li>
+          <li><a href="./pages/about.html">About</a></li>
+          <li><a href="./pages/blog.html">Blog</a></li>
+          <li><a href="./pages/faq.html">FAQs</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Policies</h4>
+        <ul>
+          <li><a href="./pages/policies/shipping.html">Shipping</a></li>
+          <li><a href="./pages/policies/returns.html">Returns</a></li>
+          <li><a href="./pages/policies/privacy.html">Privacy</a></li>
+          <li><a href="./pages/policies/terms.html">Terms</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <p>
+          <a href="#">Instagram</a> ·
+          <a href="#">Pinterest</a> ·
+          <a href="#">YouTube</a>
+        </p>
+        <address>Dehradun, Uttarakhand · India</address>
+      </div>
+    </div>
+    <div class="container footer__copy">
+      <small>© 2025 Himlay. All rights reserved.</small>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

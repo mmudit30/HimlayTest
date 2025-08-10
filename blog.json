@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "kullu-weaves",
+    "title": "Kullu Weaves: Motifs from the Mountains",
+    "date": "2025-07-21",
+    "readingTime": 5,
+    "cover": {
+      "sm": "./assets/images/blog/kullu-sm.jpg",
+      "md": "./assets/images/blog/kullu-md.jpg",
+      "lg": "./assets/images/blog/kullu-lg.jpg"
+    },
+    "html": "<p>Kullu weaving blends tradition with modern palettes...</p>"
+  },
+  {
+    "slug": "copper-traditions",
+    "title": "Copper Traditions of the Western Himalaya",
+    "date": "2025-07-25",
+    "readingTime": 4,
+    "cover": {
+      "sm": "./assets/images/blog/copper-sm.jpg",
+      "md": "./assets/images/blog/copper-md.jpg",
+      "lg": "./assets/images/blog/copper-lg.jpg"
+    },
+    "html": "<p>Coppersmiths shape utility with beauty...</p>"
+  },
+  {
+    "slug": "herbal-teas",
+    "title": "Herbal Teas: From Rhododendron to Kangra",
+    "date": "2025-07-29",
+    "readingTime": 6,
+    "cover": {
+      "sm": "./assets/images/blog/tea-sm.jpg",
+      "md": "./assets/images/blog/tea-md.jpg",
+      "lg": "./assets/images/blog/tea-lg.jpg"
+    },
+    "html": "<p>The hills are home to gentle infusions...</p>"
+  }
+]

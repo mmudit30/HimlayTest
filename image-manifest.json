@@ -1,0 +1,265 @@
+{
+  "global_style": {
+    "palette": [
+      "#6B7D5B",
+      "#8A8F88",
+      "#F7F5F2",
+      "#2B2B2B",
+      "#2F3A56"
+    ],
+    "lighting": "soft natural daylight, warm neutral white balance",
+    "notes": "real photographic, no AI blur; consistent textures; shallow but realistic depth of field; avoid surreal artifacts; add subtle Himlay watermark bottom-right"
+  },
+  "images": [
+    {
+      "file_prefix": "hero",
+      "sizes": {
+        "sm": "assets/images/hero-sm.jpg",
+        "md": "assets/images/hero-md.jpg",
+        "lg": "assets/images/hero-lg.jpg"
+      },
+      "aspect": "3:2",
+      "prompt": "Himalayan artisan weaving a shawl indoors near a window, wooden loom, woven wool textures, mountains faintly visible through window, earthy tones, soft natural daylight, editorial product photography, 3:2 ratio, sharp details, no blurry edges, realistic."
+    },
+    {
+      "file_prefix": "cat-textiles",
+      "sizes": {
+        "sm": "assets/images/cat-textiles-sm.jpg",
+        "md": "assets/images/cat-textiles-md.jpg",
+        "lg": "assets/images/cat-textiles-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Folded wool shawls in earthy colors (moss, stone, indigo), on rustic wooden table, soft daylight, minimalist styling, 1:1 square, sharp and realistic."
+    },
+    {
+      "file_prefix": "cat-wood",
+      "sizes": {
+        "sm": "assets/images/cat-wood-sm.jpg",
+        "md": "assets/images/cat-wood-md.jpg",
+        "lg": "assets/images/cat-wood-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Carved walnut tray with floral lattice pattern, close-up on texture, warm wood tones, simple background, 1:1 square, realistic product photo."
+    },
+    {
+      "file_prefix": "cat-tea",
+      "sizes": {
+        "sm": "assets/images/cat-tea-sm.jpg",
+        "md": "assets/images/cat-tea-md.jpg",
+        "lg": "assets/images/cat-tea-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Steaming cup of herbal tea with Himalayan herbs on a wooden tray, ceramic cup, gentle steam visible, 1:1 square, natural daylight."
+    },
+    {
+      "file_prefix": "map",
+      "sizes": {
+        "sm": "assets/images/map-sm.jpg",
+        "md": "assets/images/map-md.jpg",
+        "lg": "assets/images/map-lg.jpg"
+      },
+      "aspect": "3:2",
+      "prompt": "Illustrated but realistic map of Himalayan belt (Uttarakhand, Himachal, Ladakh, Sikkim, J&K), earthy palette, subtle paper texture, clear land shapes, 3:2 ratio."
+    },
+    {
+      "file_prefix": "products/tx-001",
+      "sizes": {
+        "sm": "assets/images/products/tx-001-sm.jpg",
+        "md": "assets/images/products/tx-001-md.jpg",
+        "lg": "assets/images/products/tx-001-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Pashmina blend shawl draped on wooden chair near window, fine weave detail, neutral background, 1:1, realistic product photo."
+    },
+    {
+      "file_prefix": "products/tx-002",
+      "sizes": {
+        "sm": "assets/images/products/tx-002-sm.jpg",
+        "md": "assets/images/products/tx-002-md.jpg",
+        "lg": "assets/images/products/tx-002-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Hand-loomed wool throw folded with moss and stone colors, soft wool texture, rustic table, 1:1."
+    },
+    {
+      "file_prefix": "products/wd-101",
+      "sizes": {
+        "sm": "assets/images/products/wd-101-sm.jpg",
+        "md": "assets/images/products/wd-101-md.jpg",
+        "lg": "assets/images/products/wd-101-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Carved walnut tray angled perspective, visible floral carving detail, warm highlights, 1:1."
+    },
+    {
+      "file_prefix": "products/te-201",
+      "sizes": {
+        "sm": "assets/images/products/te-201-sm.jpg",
+        "md": "assets/images/products/te-201-md.jpg",
+        "lg": "assets/images/products/te-201-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Loose leaf Kangra green tea with glass cup, pale green brew, wooden tray, 1:1."
+    },
+    {
+      "file_prefix": "products/te-202",
+      "sizes": {
+        "sm": "assets/images/products/te-202-sm.jpg",
+        "md": "assets/images/products/te-202-md.jpg",
+        "lg": "assets/images/products/te-202-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Rhododendron petals with herbal infusion in ceramic cup, slight steam, 1:1."
+    },
+    {
+      "file_prefix": "products/mt-301",
+      "sizes": {
+        "sm": "assets/images/products/mt-301-sm.jpg",
+        "md": "assets/images/products/mt-301-md.jpg",
+        "lg": "assets/images/products/mt-301-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Hammered copper water bottle standing upright, subtle reflections, charcoal backdrop, 1:1."
+    },
+    {
+      "file_prefix": "products/jr-401",
+      "sizes": {
+        "sm": "assets/images/products/jr-401-sm.jpg",
+        "md": "assets/images/products/jr-401-md.jpg",
+        "lg": "assets/images/products/jr-401-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Silver earrings on linen fabric, macro detail, soft side light, 1:1."
+    },
+    {
+      "file_prefix": "products/pc-501",
+      "sizes": {
+        "sm": "assets/images/products/pc-501-sm.jpg",
+        "md": "assets/images/products/pc-501-md.jpg",
+        "lg": "assets/images/products/pc-501-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Lokta paper journal closed with cotton tie, deckle edges visible, on desk, 1:1."
+    },
+    {
+      "file_prefix": "products/cr-601",
+      "sizes": {
+        "sm": "assets/images/products/cr-601-sm.jpg",
+        "md": "assets/images/products/cr-601-md.jpg",
+        "lg": "assets/images/products/cr-601-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Two matte-glazed clay cups side by side on wooden surface, soft highlights, 1:1."
+    },
+    {
+      "file_prefix": "products/rg-701",
+      "sizes": {
+        "sm": "assets/images/products/rg-701-sm.jpg",
+        "md": "assets/images/products/rg-701-md.jpg",
+        "lg": "assets/images/products/rg-701-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Hand-woven wool rug corner detail, indigo and bone pattern, on wooden floor, 1:1."
+    },
+    {
+      "file_prefix": "products/nd-801",
+      "sizes": {
+        "sm": "assets/images/products/nd-801-sm.jpg",
+        "md": "assets/images/products/nd-801-md.jpg",
+        "lg": "assets/images/products/nd-801-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Indigo natural dye kit contents neatly arranged, small jars and instructions, 1:1."
+    },
+    {
+      "file_prefix": "products/wd-102",
+      "sizes": {
+        "sm": "assets/images/products/wd-102-sm.jpg",
+        "md": "assets/images/products/wd-102-md.jpg",
+        "lg": "assets/images/products/wd-102-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Cedar spice box open showing compartments, brass knob glint, 1:1."
+    },
+    {
+      "file_prefix": "artisans/meera",
+      "sizes": {
+        "sm": "assets/images/artisans/meera-sm.jpg",
+        "md": "assets/images/artisans/meera-md.jpg",
+        "lg": "assets/images/artisans/meera-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Female artisan at wooden loom, mid-shot, natural smile, workshop background, 1:1, realistic portrait."
+    },
+    {
+      "file_prefix": "artisans/puran",
+      "sizes": {
+        "sm": "assets/images/artisans/puran-sm.jpg",
+        "md": "assets/images/artisans/puran-md.jpg",
+        "lg": "assets/images/artisans/puran-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Male weaver in cooperative workshop with yarn spools, 1:1, realistic portrait."
+    },
+    {
+      "file_prefix": "artisans/rafiq",
+      "sizes": {
+        "sm": "assets/images/artisans/rafiq-sm.jpg",
+        "md": "assets/images/artisans/rafiq-md.jpg",
+        "lg": "assets/images/artisans/rafiq-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Male woodcarver with chisels and carved panel behind, 1:1, realistic portrait."
+    },
+    {
+      "file_prefix": "artisans/dolma",
+      "sizes": {
+        "sm": "assets/images/artisans/dolma-sm.jpg",
+        "md": "assets/images/artisans/dolma-md.jpg",
+        "lg": "assets/images/artisans/dolma-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Female rug weaver in Ladakh-style room with textiles, 1:1, realistic portrait."
+    },
+    {
+      "file_prefix": "artisans/tashi",
+      "sizes": {
+        "sm": "assets/images/artisans/tashi-sm.jpg",
+        "md": "assets/images/artisans/tashi-md.jpg",
+        "lg": "assets/images/artisans/tashi-lg.jpg"
+      },
+      "aspect": "1:1",
+      "prompt": "Paper craft lead in studio with lokta sheets, 1:1, realistic portrait."
+    },
+    {
+      "file_prefix": "blog/kullu",
+      "sizes": {
+        "sm": "assets/images/blog/kullu-sm.jpg",
+        "md": "assets/images/blog/kullu-md.jpg",
+        "lg": "assets/images/blog/kullu-lg.jpg"
+      },
+      "aspect": "3:2",
+      "prompt": "Weaving loom with colorful threads and Kullu motifs, editorial landscape photo, 3:2, natural daylight."
+    },
+    {
+      "file_prefix": "blog/copper",
+      "sizes": {
+        "sm": "assets/images/blog/copper-sm.jpg",
+        "md": "assets/images/blog/copper-md.jpg",
+        "lg": "assets/images/blog/copper-lg.jpg"
+      },
+      "aspect": "3:2",
+      "prompt": "Copperware workshop scene with tools and hammered vessels, warm highlights, 3:2, realistic."
+    },
+    {
+      "file_prefix": "blog/tea",
+      "sizes": {
+        "sm": "assets/images/blog/tea-sm.jpg",
+        "md": "assets/images/blog/tea-md.jpg",
+        "lg": "assets/images/blog/tea-lg.jpg"
+      },
+      "aspect": "3:2",
+      "prompt": "Herbal tea still life: leaves, flowers, and a teapot on wooden tray, 3:2, soft daylight."
+    }
+  ]
+}
