@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Handmade, Himalayan. Himlay curates artisan goods from the Himalayan belt." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <meta property="og:title" content="Himlay — Handmade from the Himalayas" />
+  <meta property="og:description" content="Crafted by mountain artisans—each piece carries the calm of the hills." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./assets/images/og-default-lg.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Post — Himlay</title>
+</head>
+<body>
+  <header class="header" id="site-header">
+    <div class="container header__inner">
+      <a class="logo" href="../index.html">himlay<span class="logo__dot">.com</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html">Home</a>
+        <a href="./shop.html">Shop</a>
+        <a href="./about.html">About</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./faq.html">FAQs</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <div class="header__actions">
+        <input id="site-search" class="search" type="search" placeholder="Search products…" aria-label="Search" />
+        <select id="currency-select" class="currency" aria-label="Currency">
+          <option value="INR">INR ₹</option>
+          <option value="USD">USD $</option>
+          <option value="EUR">EUR €</option>
+        </select>
+        <a class="icon-btn" href="./wishlist.html" aria-label="Wishlist">
+          <span class="icon-heart"></span><span class="badge" id="wishlist-count">0</span>
+        </a>
+        <a class="icon-btn" href="./cart.html" aria-label="Cart">
+          <span class="icon-cart"></span><span class="badge" id="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+
+<section class="container" data-aos="fade-up">
+  <article id="post"></article>
+</section>
+<script type="module">
+  import { renderPost } from "../js/blog.js";
+  renderPost();
+</script>
+
+  </main>
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="logo footer__logo">himlay<span class="logo__dot">.com</span></div>
+        <p>Handmade. Himalayan. Curated goods from Kumaon, Garhwal, Himachal, Ladakh, Sikkim & beyond.</p>
+        <form class="newsletter" action="mailto:hello@himlay.com" method="post" enctype="text/plain">
+          <label for="nl-email">Join our newsletter</label>
+          <input id="nl-email" name="email" type="email" placeholder="you@example.com" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="./shop.html">Shop</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./faq.html">FAQs</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Policies</h4>
+        <ul>
+          <li><a href="./policies/shipping.html">Shipping</a></li>
+          <li><a href="./policies/returns.html">Returns</a></li>
+          <li><a href="./policies/privacy.html">Privacy</a></li>
+          <li><a href="./policies/terms.html">Terms</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <p>
+          <a href="#">Instagram</a> ·
+          <a href="#">Pinterest</a> ·
+          <a href="#">YouTube</a>
+        </p>
+        <address>Dehradun, Uttarakhand · India</address>
+      </div>
+    </div>
+    <div class="container footer__copy">
+      <small>© 2025 Himlay. All rights reserved.</small>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>
